@@ -8,6 +8,41 @@ This project is designed to help developers understand performance optimization 
 
 ---
 
+## 📖 About The Project
+
+In React, every time a component re-renders, any functions declared inside it are recreated. While this is usually fine, passing newly created functions as props to child components can trigger unnecessary re-renders.
+
+The useCallback Hook solves this by memoizing functions, ensuring the same function reference is reused until its dependencies change.
+
+This project demonstrates:
+
+- What useCallback is
+- How function memoization works
+- Preventing unnecessary component re-renders
+- Working with React.memo
+- Optimizing callback functions
+- Best practices for using useCallback
+
+Whether you're learning React Hooks or preparing for frontend interviews, this project provides practical examples to master React performance optimization.
+
+---
+
+## 🚀 What is useCallback?
+
+The useCallback Hook returns a memoized version of a callback function.
+
+Instead of creating a new function on every render, React returns the previously cached function until one of its dependencies changes.
+
+### Syntax:
+
+const memoizedCallback = useCallback(() => {
+
+    // Function logic
+    
+}, [dependencies]);
+
+---
+
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
