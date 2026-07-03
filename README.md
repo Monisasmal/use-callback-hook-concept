@@ -43,6 +43,41 @@ const memoizedCallback = useCallback(() => {
 
 ---
 
+## ✨ Features
+
+Hook Demonstrations
+
+✔ Function Memoization
+
+✔ Parent & Child Components
+
+✔ Preventing Re-renders
+
+✔ React.memo Integration
+
+✔ Dependency Arrays
+
+✔ Stable Function References
+
+✔ Event Handlers
+
+✔ Performance Optimization
+
+----
+
+## React Concepts Covered
+
+- useCallback
+- React.memo
+- Memoized Functions
+- Component Re-rendering
+- Dependency Arrays
+- Parent & Child Communication
+- Performance Optimization
+- React Hooks Best Practices
+
+---
+
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
