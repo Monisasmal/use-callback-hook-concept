@@ -116,6 +116,42 @@ Now the child component wrapped with React.memo won't re-render unless the callb
 
 ---
 
+## 🎯 Why useCallback?
+
+The useCallback Hook helps developers:
+
+✅ Prevent Unnecessary Re-renders
+
+✅ Memoize Functions
+
+✅ Improve Rendering Performance
+
+✅ Work Efficiently with React.memo
+
+✅ Optimize Parent-Child Communication
+
+✅ Reduce Unwanted Function Recreation
+
+---
+
+## 🚨 When NOT to Use useCallback
+
+Avoid using useCallback for:
+
+❌ Every Function
+
+❌ Small Components
+
+❌ Functions Not Passed as Props
+
+❌ Simple Applications
+
+❌ Premature Optimization
+
+Using useCallback unnecessarily can increase code complexity without providing performance benefits.
+
+---
+
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
