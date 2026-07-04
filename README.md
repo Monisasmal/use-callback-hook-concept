@@ -152,6 +152,27 @@ Using useCallback unnecessarily can increase code complexity without providing p
 
 ---
 
+## 📚 Learning Outcomes
+
+After exploring this project, you'll understand:
+
+✔ Function Memoization
+
+✔ Stable Function References
+
+✔ React.memo Integration
+
+✔ Component Re-rendering
+
+✔ Dependency Arrays
+
+✔ Parent-Child Optimization
+
+✔ React Performance Best Practices
+
+✔ Efficient React Component Design
+
+---
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
