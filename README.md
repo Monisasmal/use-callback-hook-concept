@@ -78,6 +78,44 @@ Hook Demonstrations
 
 ---
 
+## Example Usage
+
+### Basic Example
+
+import { useCallback } from "react";
+
+function App() {
+
+const handleClick = useCallback(() => {
+
+    console.log("Button Clicked");
+    
+}, []);
+
+
+return (
+
+    <button onClick={handleClick}>
+        Click Me
+    </button>
+    
+);
+
+}
+
+### Working with React.memo
+
+const increment = useCallback(() => {
+
+    setCount((prev) => prev + 1);
+    
+}, []);
+
+
+Now the child component wrapped with React.memo won't re-render unless the callback's dependencies change.
+
+---
+
 
 ## 🙋‍♀️ Author - Manaswini Sasmal
 
